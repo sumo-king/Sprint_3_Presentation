@@ -7,10 +7,6 @@ This presentation introduces the core Kubernetes concepts needed to understand h
 **Presenters:** 4  
 **Format:** Slides + live terminal demos
 
-
-## 0:00–1:00 — Speaker 1  
-## Introduction and Kubernetes Architecture Overview
-
 ### Key Kubernetes Points to Cover
 
 - Kubernetes is a container orchestration platform.
@@ -21,7 +17,6 @@ This presentation introduces the core Kubernetes concepts needed to understand h
   - Networking
   - Self-healing
   - Rollouts and rollbacks
-
 
 ### Core Architecture
 
