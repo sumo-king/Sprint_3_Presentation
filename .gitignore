@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+.python-version
+pip-wheel-metadata/
+
+# Application config and environment
+*.env
+.env.*
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+kubeconfig*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.backup
+.terraform.lock.hcl
+
+# Python virtual environment paths in workspace
+__pypackages__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# System files
+Thumbs.db
+
+# Generated secrets / sensitive files
+secrets.yml
+credentials.yml
+
+# IDE / Editor
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
