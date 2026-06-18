@@ -1,8 +1,14 @@
-# This documents Details about each deployment
+# PRESENTATION COMMANDS
 
-## `deployment-1.yaml`
+kubectl get nodes
 
-- contains a deployment named **nginx-deployment** with the pods labels being "**app: nginx-app**"
+kubectl get pods
 
-- runs 1 container containing the **nginx:1.14.2** image from the public registry
-- It set to serve on port 80
+kubectl get svc
+
+kubectl port-forward service/nginx-service 8080:80
+
+kubectl scale deployment nginx-deployment --replicas=6
+
+kubectl rollout status deployment nginx-deployment
+

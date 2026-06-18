@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: k8s-demo-service
+  labels:
+    app: k8s-demo-v1
+
+spec:
+  type: LoadBalancer
+
+  selector:
+    app: k8s-demo-v1
+
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
