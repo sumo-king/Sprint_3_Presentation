@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-confimap
+data:
+  APP_ENV: "production"
+  APP_COLOR: "light"
