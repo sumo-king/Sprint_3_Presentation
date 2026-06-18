@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: k8s-demo-deployment-v1
+  name: k8s-demo-deployment-v2
   labels:
-    app: k8s-demo-app-v1
+    app: k8s-demo-app-v2
 
 spec:
   replicas: 4
@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: sheltz/sprint_3_presentation:latest
+        image: sheltz/sprint_3_presentation:v2
         imagePullPolicy: Always
 
         ports:

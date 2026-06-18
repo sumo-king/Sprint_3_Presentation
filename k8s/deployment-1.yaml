@@ -6,7 +6,7 @@ metadata:
     app: k8s-demo-app-v1
 
 spec:
-  replicas: 1
+  replicas: 4
 
   selector:
     matchLabels:
