@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: k8s-demo-deployment-v2
+  name: k8s-demo-deployment-v1
   labels:
-    app: k8s-demo-app-v2
+    app: k8s-demo-app-v1
 
 spec:
   replicas: 4

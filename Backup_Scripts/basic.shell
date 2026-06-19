@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#accept a username as variable
+
+
+#CREATE AN ACCESS ENTRY 
+aws eks create-access-entry   --cluster-name demo-eks-cluster   --principal-arn arn:aws:iam::237108087504:user/Phutheho
+
+#
+aws eks associate-access-policy   --cluster-name demo-eks-cluster   --principal-arn arn:aws:iam::237108087504:user/Phutheho   --policy-arn arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy   --access-scope type=cluster
